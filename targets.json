@@ -4091,5 +4091,19 @@
                 "firmware": "Unified_ESP32C3_2400_RX"
             }
         }
+    },
+    "simplifly": {
+        "name": "SimpliFly RC",
+        "tx_2400": {
+            "simplifly_2g4_tx": {
+                "product_name": "SimpliFly 2G4 TX",
+                "lua_name": "SimpliFly 2G4",
+                "layout_file": "SimpliFly 2G4.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "4.0.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_2400_TX"
+            }
+        }
     }
 }
