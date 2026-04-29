@@ -1,0 +1,31 @@
+{
+    "/"    : "SimpliFly 2G4 RX — ESP32-S3 + Ebyte E28-2G4M27SX (SX1281 27dBm PA+LNA)",
+    "/note": "Serial CRSF output only, no PWM servo outputs",
+
+    "serial_rx": 17,
+    "serial_tx": 18,
+
+    "radio_mosi": 11,
+    "radio_miso": 13,
+    "radio_sck":  12,
+    "radio_nss":  10,
+    "radio_busy": 14,
+    "radio_dio1": 15,
+    "radio_rst":  16,
+
+    "power_rxen":     8,
+    "power_txen":     9,
+    "power_min":      0,
+    "power_high":     4,
+    "power_max":      4,
+    "power_default":  2,
+    "power_control":  0,
+    "power_values":   [-15, -11, -8, -5, -1],
+
+    "led_rgb": 48,
+    "led_rgb_isgrb": true,
+    "ledidx_rgb_status": [0],
+    "ledidx_rgb_boot":   [0],
+
+    "button": 0
+}
