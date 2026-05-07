@@ -22,10 +22,7 @@
     "power_control":  0,
     "power_values":   [-15, -11, -8, -5, -1],
 
-    "led_rgb": 48,
-    "led_rgb_isgrb": true,
-    "ledidx_rgb_status": [0],
-    "ledidx_rgb_boot":   [0],
+    "led": 48,
 
     "button": 0
 }
