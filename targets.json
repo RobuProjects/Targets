@@ -4115,6 +4115,28 @@
                 "platform": "esp32-s3",
                 "firmware": "Unified_ESP32S3_2400_RX"
             }
+        },
+        "tx_dual": {
+            "simplifly_dual_tx": {
+                "product_name": "SimpliFly Dual ELRS TX",
+                "lua_name": "SimpliFly Dual",
+                "layout_file": "SimpliFly Dual.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "4.0.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_LR1121_TX"
+            }
+        },
+        "rx_dual": {
+            "simplifly_dual_rx": {
+                "product_name": "SimpliFly Dual ELRS RX",
+                "lua_name": "SFly Dual RX",
+                "layout_file": "SimpliFly Dual RX.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "4.0.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_LR1121_RX"
+            }
         }
     }
 }
